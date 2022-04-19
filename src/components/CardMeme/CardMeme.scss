@@ -1,0 +1,23 @@
+.c-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 360px;
+  margin: 20px;
+  border: solid 2px rgb(247, 244, 244);
+  border-radius: 8px;
+  box-shadow: 2px -2px 4px rgb(201, 224, 96);
+  font-weight: bold;
+  &__img {
+    width: 90%;
+    height: 70%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  &__title {
+    margin: 10px;
+  }
+}

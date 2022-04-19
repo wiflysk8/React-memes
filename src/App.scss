@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+body{
+  background-color: rgb(29, 29, 39);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
